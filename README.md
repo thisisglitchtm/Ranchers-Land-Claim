@@ -28,7 +28,7 @@ and sends claim transactions with a 2-second delay between each to avoid network
 
 3. Install dependencies:
    ```env
-   npm install
+   npm install $(cat requirements.txt)
 
 4. Run the script:
    ```env
