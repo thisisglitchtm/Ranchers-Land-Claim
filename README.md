@@ -1,8 +1,9 @@
 # NFT Auto Claimer for WAX Blockchain / Автоматический Клеймер NFT для блокчейна WAX
 
 ---
+<img width="775" height="481" alt="image" src="https://github.com/user-attachments/assets/8b2ab980-2224-4b34-81c6-5c5aa6c96866" />
 
-## English
+---
 
 Automated script to periodically monitor and automatically claim NFTs on the WAX blockchain.  
 It fetches all NFTs owned by a specified account, checks the claim availability every minute,  
