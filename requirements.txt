@@ -1,0 +1,3 @@
+dotenv
+eosjs
+node-fetch@2
