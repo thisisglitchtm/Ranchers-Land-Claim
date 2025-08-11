@@ -41,3 +41,9 @@ and sends claim transactions with a 2-second delay between each to avoid network
     Valid WAX account and private key with claim permissions.
 	
     Internet connection to access the WAX RPC endpoint.
+
+
+ ### If you find this project helpful, please consider supporting its development. Your support is greatly appreciated:
+   USDT - TON:
+   
+	UQA_58GijHs26Ba-mPa7GRXaqOoDbbdZb4TlIx1PGpGTM8Gv
