@@ -1,50 +1,45 @@
-# NFT Auto Claimer for WAX Blockchain / Автоматический Клеймер NFT для блокчейна WAX
+# 🐂 NFT Claim Bot для RanchersLand (WAX)
+
+Скрипт для автоматического отслеживания времени сбора для NFT, живого обратного отсчёта и автоматического вызова сбора в момент доступности.
 
 ---
-<img width="775" height="481" alt="image" src="https://github.com/user-attachments/assets/8b2ab980-2224-4b34-81c6-5c5aa6c96866" />
+
+## 🚀 Возможности
+- Автоматически находит все стейкнутые NFT пользователя.
+- Живой обратный отсчёт времени до сбора для каждого NFT в консоли.
+- Автоматический вызов сбора при наступлении времени.
+- После сбора пересчитывает все таймеры.
+- Отображает имя NFT.
 
 ---
 
-Automated script to periodically monitor and automatically claim NFTs on the WAX blockchain.  
-It fetches all NFTs owned by a specified account, checks the claim availability every minute,  
-and sends claim transactions with a 2-second delay between each to avoid network congestion.
+## 📦 Установка
 
-### Features
+git clone https://github.com/thisisglitchtm/Ranchers-Land-Claim.git <br>
+cd Ranchers-Land-Claim<br>
+npm install
 
-- Automatically fetches all NFTs owned by the configured account.  
-- Checks claim availability every 60 seconds.  
-- Automatically claims NFTs when available.  
-- Adds a 2-second delay between claim transactions to prevent overload.  
-- Logs all key events and errors to the console.
+---
 
-### Setup
+## ⚙ Настройка
+Создайте файл .env в корне проекта:
 
-1. Clone the repository.
+PRIVATE_KEY=ваш_приватный_ключ<br>
+API_NODE=https://wax.greymass.com<br>
+OWNER=ваш_аккаунт_WAX<br>
 
-2. Create a `.env` file in the root directory with the following variables:
+--- 
 
-   ```env
-   PRIVATE_KEY=your_private_key_here
-   OWNER=your_wax_account_name
+## ▶ Запуск
 
-3. Install dependencies:
-   ```env
-   npm install $(cat requirements.txt)
+node index.js
 
-4. Run the script:
-   ```env
-   node index.js
-   
-### Requirements:
+--- 
 
-    Node.js 14+
-	
-    Valid WAX account and private key with claim permissions.
-	
-    Internet connection to access the WAX RPC endpoint.
+## 📜 Лицензия
+MIT
 
+--- 
 
- ### If you find this project helpful, please consider supporting its development. Your support is greatly appreciated:
-   USDT - TON:
-   
-	UQA_58GijHs26Ba-mPa7GRXaqOoDbbdZb4TlIx1PGpGTM8Gv
+## Если тебе помог мой код, то я буду благодарен тебе за поддержку:
+USDT - TON: UQA_58GijHs26Ba-mPa7GRXaqOoDbbdZb4TlIx1PGpGTM8Gv
